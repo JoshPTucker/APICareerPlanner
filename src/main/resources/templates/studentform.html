@@ -138,35 +138,194 @@
                     <label class="form-check-label">Health</label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" th:field="*{}" value=""/>
+                    <input class="form-check-input" type="checkbox" th:field="*{transportationAssist}" value=""/>
                     <label class="form-check-label">Transportation</label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" th:field="*{}" value=""/>
+                    <input class="form-check-input" type="checkbox" th:field="*{businessAttireAssist}" value=""/>
                     <label class="form-check-label">Business Attire</label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" th:field="*{}" value=""/>
+                    <input class="form-check-input" type="checkbox" th:field="*{legalAssist}" value=""/>
                     <label class="form-check-label">Legal</label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" th:field="*{}" value=""/>
+                    <input class="form-check-input" type="checkbox" th:field="*{otherAssist}" value=""/>
                     <label class="form-check-label">Other</label>
                 </div>
             </div>
         </div>
+        <div class="row justify-content-center p-4">
+            <h3>Your Career Goals</h3>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
+        <div class="form-group form-row">
+            <label class="col-sm-3">What is your long term career goal?</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" th:field="*{ltCareerGoal}"/>
+            </div>
+        </div>
+        <div class="form-group form-row">
+            <label class="col-sm-3">What is the title of the position you are applying for or will apply for when you complete this training to
+                start/ continue on the path to your long term career goal?
+            </label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" th:field="*{positionApply}"/>
+            </div>
+        </div>
+        <div class="form-group form-row">
+            <label class="col-sm-3">What specific skills and experience do you already have for this posistion?</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" th:field="*{skillsExp}"/>
+            </div>
+        </div>
+        <div class="form-group form-row">
+            <label class="col-sm-3">What other stremgths/ aptitudes do you have for work in this field of it?</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" th:field="*{strengths}"/>
+            </div>
+        </div>
+        <div class="form-group form-row">
+            <label class="col-sm-3">What training do you need to better prepare/gain qualifications for this posistion?</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" th:field="*{trainingNeeded}"/>
+            </div>
+        </div>
+        <div class="form-group form-row">
+            <label class="col-sm-3">What responsibilities/daily tasks of this posistion do you think youll enjoy most?</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" th:field="*{tasksYoullEnjoy}"/>
+            </div>
+        </div>
+        <div class="form-group form-row">
+            <label class="col-sm-3">How do you see yourself growing in this career over the next 3-5 years?</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" th:field="*{seeGrowth}"/>
+            </div>
+        </div>
+        <div class="form-group form-row">
+            <label class="col-sm-3">What are two areas for personal/professional growth you need to focus on to
+                become employable and able to retain a job in this field?</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" th:field="*{twoAreagrowth}"/>
+            </div>
+        </div>
+        <div class="row justify-content-center p-4">
+            <h3>Employment Preferences</h3>
+        </div>
+        <div class="form-group form-row">
+            <label class="col-sm-3">Check all that you want from a career:</label>
+            <div class="col-sm-9">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" th:field="*{healthInsurance}" value=""/>
+                    <label class="form-check-label">Health Insurance</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" th:field="*{dental}" value=""/>
+                    <label class="form-check-label">Dental  Insuance</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" th:field="*{visionInsurance}" value=""/>
+                    <label class="form-check-label">Vision  Insuance</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" th:field="*{vacationSickLeave}" value=""/>
+                    <label class="form-check-label">Vacation/Sick leave</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" th:field="*{retirementPlan}" value=""/>
+                    <label class="form-check-label">Retirement Plan</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" th:field="*{fullTime}" value=""/>
+                    <label class="form-check-label">Full Time Employment</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" th:field="*{partTime}" value=""/>
+                    <label class="form-check-label">Part Time Employment</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" th:field="*{contractor}" value=""/>
+                    <label class="form-check-label">Contractor</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" th:field="*{selfEmploy}" value=""/>
+                    <label class="form-check-label">Self-Employment</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" th:field="*{weekdaysOnly}" value=""/>
+                    <label class="form-check-label">Weekdays Only</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" th:field="*{dayHoursOnly}" value=""/>
+                    <label class="form-check-label">Daytime Hours Only</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" th:field="*{flexSchedule}" value=""/>
+                    <label class="form-check-label">Flexible Schedule</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group form-row">
+            <label class="col-sm-3">Desired Wage:</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" th:field="*{desiredWage}"/>
+            </div>
+        </div>
+        <div class="form-group form-row">
+            <label class="col-sm-3">Desired geographical area:</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" th:field="*{desiredLocal}"/>
+            </div>
+        </div>
+        <div class="row justify-content-center p-4">
+            <h3>America's Promimse Program Participation Requirements</h3>
+        </div>
+        <div class="form-group form-row">
+            <label class="col-sm-3">Will you meet with the AP Career Navigator/Job Developer by appointment as needed?</label>
+            <div class="col-sm-9">
+                <label>Yes</label>
+                <input class="form-check" type="radio" th:field="*{meetNavigator}" value="yes"/>
+                <label>No</label>
+                <input class="form-check" type="radio" th:field="*{meetNavigator}" value="no"/>
+            </div>
+        </div>
+        <div class="form-group form-row">
+            <label class="col-sm-3">Are you commited to obtaining and maintaining long-term employment?</label>
+            <div class="col-sm-9">
+                <label>Yes</label>
+                <input class="form-check" type="radio" th:field="*{committed2LTEmploy}" value="yes"/>
+                <label>No</label>
+                <input class="form-check" type="radio" th:field="*{committed2LTEmploy}" value="no"/>
+            </div>
+        </div>
+        <div class="form-group form-row">
+            <label class="col-sm-3">Are you commited to contacting your instructor/program coordinator when you gain employment?</label>
+            <div class="col-sm-9">
+                <label>Yes</label>
+                <input class="form-check" type="radio" th:field="*{committed2contactCoordinator}" value="yes"/>
+                <label>No</label>
+                <input class="form-check" type="radio" th:field="*{committed2contactCoordinator}" value="no"/>
+            </div>
+        </div>
+        <div class="form-group form-row">
+            <label class="col-sm-3">Will you use the referrals your Instructor/Program Coordinator/AP Career Navigator/AP Job Developer provide?</label>
+            <div class="col-sm-9">
+                <label>Yes</label>
+                <input class="form-check" type="radio" th:field="*{useReferrals}" value="yes"/>
+                <label>No</label>
+                <input class="form-check" type="radio" th:field="*{useReferrals}" value="no"/>
+            </div>
+        </div>
+        <div class="form-group form-row">
+            <label class="col-sm-3">Are you willing to accept internshp/on-the-job training opportunities if available?</label>
+            <div class="col-sm-9">
+                <label>Yes</label>
+                <input class="form-check" type="radio" th:field="*{willing2takeOnJobTraining}" value="yes"/>
+                <label>No</label>
+                <input class="form-check" type="radio" th:field="*{willing2takeOnJobTraining}" value="no"/>
+            </div>
+        </div>
 
 
         <div class="form-row justify-content-center">

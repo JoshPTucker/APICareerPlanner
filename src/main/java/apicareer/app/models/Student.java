@@ -39,12 +39,13 @@ public class Student {
     private boolean legalAssist;
     private boolean otherAssist;
     private boolean foodAssist;
-    private boolean transportAssist;
+
 
     //Career Goals
     private String ltCareerGoal;
-    private String positionAppy;
+    private String positionApply;
     private String skillsExp;
+    private String strengths;
     private String trainingNeeded;
     private String tasksYoullEnjoy;
     private String seeGrowth;
@@ -57,13 +58,13 @@ public class Student {
     private boolean vacationSickLeave;
     private boolean retirementPlan;
     private boolean fullTime;
-    private boolean parttime;
+    private boolean partTime;
     private boolean contractor;
     private boolean selfEmploy;
     private boolean weekdaysOnly;
     private boolean dayHoursOnly;
     private boolean flexSchedule;
-    private String diredWage;
+    private String desiredWage;
     private String desiredLocal;
 
     //Program Participation
@@ -249,12 +250,12 @@ public class Student {
         this.ltCareerGoal = ltCareerGoal;
     }
 
-    public String getPositionAppy() {
-        return positionAppy;
+    public String getPositionApply() {
+        return positionApply;
     }
 
-    public void setPositionAppy(String positionAppy) {
-        this.positionAppy = positionAppy;
+    public void setPositionApply(String positionApply) {
+        this.positionApply = positionApply;
     }
 
     public String getSkillsExp() {
@@ -297,12 +298,12 @@ public class Student {
         this.twoAreagrowth = twoAreagrowth;
     }
 
-    public String getDiredWage() {
-        return diredWage;
+    public String getDesiredWage() {
+        return desiredWage;
     }
 
-    public void setDiredWage(String diredWage) {
-        this.diredWage = diredWage;
+    public void setDesiredWage(String desiredWage) {
+        this.desiredWage = desiredWage;
     }
 
     public String getDesiredLocal() {
@@ -361,12 +362,12 @@ public class Student {
         this.fullTime = fullTime;
     }
 
-    public boolean isParttime() {
-        return parttime;
+    public boolean isPartTime() {
+        return partTime;
     }
 
-    public void setParttime(boolean parttime) {
-        this.parttime = parttime;
+    public void setPartTime(boolean partTime) {
+        this.partTime = partTime;
     }
 
     public boolean isContractor() {
@@ -457,11 +458,11 @@ public class Student {
         this.foodAssist = foodAssist;
     }
 
-    public boolean isTransportAssist() {
-        return transportAssist;
+    public String getStrengths() {
+        return strengths;
     }
 
-    public void setTransportAssist(boolean transportAssist) {
-        this.transportAssist = transportAssist;
+    public void setStrengths(String strengths) {
+        this.strengths = strengths;
     }
 }
