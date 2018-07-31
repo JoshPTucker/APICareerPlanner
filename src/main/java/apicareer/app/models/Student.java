@@ -12,11 +12,11 @@ public class Student {
     private long id;
     private String name;
 
-    private String dateDeveloped;
-
+    //Education Training Prof Development
     private String postSecondaryEd;
     private String ProfessionalCertifications;
 
+    //Current Recent Employment
     private String employer;
     private String wage;
     private String industry;
@@ -24,11 +24,12 @@ public class Student {
     private String otherExperience;
     private String reasonForLeaving;
 
-    private String prevteFromEmployment;
+    private String preventsEmployment;
 
     private String transportation;
-
     private boolean driversLiscense;
+
+    //Basic  Resources, supportive needs
     private boolean housingAssist;
     private boolean childFamilyCareAssist;
     private boolean financialAssist;
@@ -37,17 +38,10 @@ public class Student {
     private boolean businessAttireAssist;
     private boolean legalAssist;
     private boolean otherAssist;
+    private boolean foodAssist;
+    private boolean transportAssist;
 
-
-    private boolean localCareerOneStop;
-    private boolean mcEmploymentService;
-    private boolean POAC;
-    private boolean localIndustryNetGroup;
-    private boolean profAssociations;
-    private boolean mdWorkforceExchange;
-    private boolean linkedin;
-
-
+    //Career Goals
     private String ltCareerGoal;
     private String positionAppy;
     private String skillsExp;
@@ -56,10 +50,28 @@ public class Student {
     private String seeGrowth;
     private String twoAreagrowth;
 
-
+    //Employment preferences
+    private boolean healthInsurance;
+    private boolean dental;
+    private boolean visionInsurance;
+    private boolean vacationSickLeave;
+    private boolean retirementPlan;
+    private boolean fullTime;
+    private boolean parttime;
+    private boolean contractor;
+    private boolean selfEmploy;
+    private boolean weekdaysOnly;
+    private boolean dayHoursOnly;
+    private boolean flexSchedule;
     private String diredWage;
     private String desiredLocal;
 
+    //Program Participation
+    private boolean meetNavigator;
+    private boolean committed2LTEmploy;
+    private boolean committed2contactCoordinator;
+    private boolean useReferrals;
+    private boolean willing2takeOnJobTraining;
 
     public long getId() {
         return id;
@@ -75,14 +87,6 @@ public class Student {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getDateDeveloped() {
-        return dateDeveloped;
-    }
-
-    public void setDateDeveloped(String dateDeveloped) {
-        this.dateDeveloped = dateDeveloped;
     }
 
     public String getPostSecondaryEd() {
@@ -149,12 +153,12 @@ public class Student {
         this.reasonForLeaving = reasonForLeaving;
     }
 
-    public String getPrevteFromEmployment() {
-        return prevteFromEmployment;
+    public String getPreventsEmployment() {
+        return preventsEmployment;
     }
 
-    public void setPrevteFromEmployment(String prevteFromEmployment) {
-        this.prevteFromEmployment = prevteFromEmployment;
+    public void setPreventsEmployment(String preventsEmployment) {
+        this.preventsEmployment = preventsEmployment;
     }
 
     public String getTransportation() {
@@ -237,62 +241,6 @@ public class Student {
         this.otherAssist = otherAssist;
     }
 
-    public boolean isLocalCareerOneStop() {
-        return localCareerOneStop;
-    }
-
-    public void setLocalCareerOneStop(boolean localCareerOneStop) {
-        this.localCareerOneStop = localCareerOneStop;
-    }
-
-    public boolean isMcEmploymentService() {
-        return mcEmploymentService;
-    }
-
-    public void setMcEmploymentService(boolean mcEmploymentService) {
-        this.mcEmploymentService = mcEmploymentService;
-    }
-
-    public boolean isPOAC() {
-        return POAC;
-    }
-
-    public void setPOAC(boolean POAC) {
-        this.POAC = POAC;
-    }
-
-    public boolean isLocalIndustryNetGroup() {
-        return localIndustryNetGroup;
-    }
-
-    public void setLocalIndustryNetGroup(boolean localIndustryNetGroup) {
-        this.localIndustryNetGroup = localIndustryNetGroup;
-    }
-
-    public boolean isProfAssociations() {
-        return profAssociations;
-    }
-
-    public void setProfAssociations(boolean profAssociations) {
-        this.profAssociations = profAssociations;
-    }
-
-    public boolean isMdWorkforceExchange() {
-        return mdWorkforceExchange;
-    }
-
-    public void setMdWorkforceExchange(boolean mdWorkforceExchange) {
-        this.mdWorkforceExchange = mdWorkforceExchange;
-    }
-
-    public boolean isLinkedin() {
-        return linkedin;
-    }
-
-    public void setLinkedin(boolean linkedin) {
-        this.linkedin = linkedin;
-    }
-
     public String getLtCareerGoal() {
         return ltCareerGoal;
     }
@@ -363,5 +311,157 @@ public class Student {
 
     public void setDesiredLocal(String desiredLocal) {
         this.desiredLocal = desiredLocal;
+    }
+
+    public boolean isHealthInsurance() {
+        return healthInsurance;
+    }
+
+    public void setHealthInsurance(boolean healthInsurance) {
+        this.healthInsurance = healthInsurance;
+    }
+
+    public boolean isDental() {
+        return dental;
+    }
+
+    public void setDental(boolean dental) {
+        this.dental = dental;
+    }
+
+    public boolean isVisionInsurance() {
+        return visionInsurance;
+    }
+
+    public void setVisionInsurance(boolean visionInsurance) {
+        this.visionInsurance = visionInsurance;
+    }
+
+    public boolean isVacationSickLeave() {
+        return vacationSickLeave;
+    }
+
+    public void setVacationSickLeave(boolean vacationSickLeave) {
+        this.vacationSickLeave = vacationSickLeave;
+    }
+
+    public boolean isRetirementPlan() {
+        return retirementPlan;
+    }
+
+    public void setRetirementPlan(boolean retirementPlan) {
+        this.retirementPlan = retirementPlan;
+    }
+
+    public boolean isFullTime() {
+        return fullTime;
+    }
+
+    public void setFullTime(boolean fullTime) {
+        this.fullTime = fullTime;
+    }
+
+    public boolean isParttime() {
+        return parttime;
+    }
+
+    public void setParttime(boolean parttime) {
+        this.parttime = parttime;
+    }
+
+    public boolean isContractor() {
+        return contractor;
+    }
+
+    public void setContractor(boolean contractor) {
+        this.contractor = contractor;
+    }
+
+    public boolean isSelfEmploy() {
+        return selfEmploy;
+    }
+
+    public void setSelfEmploy(boolean selfEmploy) {
+        this.selfEmploy = selfEmploy;
+    }
+
+    public boolean isWeekdaysOnly() {
+        return weekdaysOnly;
+    }
+
+    public void setWeekdaysOnly(boolean weekdaysOnly) {
+        this.weekdaysOnly = weekdaysOnly;
+    }
+
+    public boolean isDayHoursOnly() {
+        return dayHoursOnly;
+    }
+
+    public void setDayHoursOnly(boolean dayHoursOnly) {
+        this.dayHoursOnly = dayHoursOnly;
+    }
+
+    public boolean isFlexSchedule() {
+        return flexSchedule;
+    }
+
+    public void setFlexSchedule(boolean flexSchedule) {
+        this.flexSchedule = flexSchedule;
+    }
+
+    public boolean isMeetNavigator() {
+        return meetNavigator;
+    }
+
+    public void setMeetNavigator(boolean meetNavigator) {
+        this.meetNavigator = meetNavigator;
+    }
+
+    public boolean isCommitted2LTEmploy() {
+        return committed2LTEmploy;
+    }
+
+    public void setCommitted2LTEmploy(boolean committed2LTEmploy) {
+        this.committed2LTEmploy = committed2LTEmploy;
+    }
+
+    public boolean isCommitted2contactCoordinator() {
+        return committed2contactCoordinator;
+    }
+
+    public void setCommitted2contactCoordinator(boolean committed2contactCoordinator) {
+        this.committed2contactCoordinator = committed2contactCoordinator;
+    }
+
+    public boolean isUseReferrals() {
+        return useReferrals;
+    }
+
+    public void setUseReferrals(boolean useReferrals) {
+        this.useReferrals = useReferrals;
+    }
+
+    public boolean isWilling2takeOnJobTraining() {
+        return willing2takeOnJobTraining;
+    }
+
+    public void setWilling2takeOnJobTraining(boolean willing2takeOnJobTraining) {
+        this.willing2takeOnJobTraining = willing2takeOnJobTraining;
+    }
+
+    public boolean isFoodAssist() {
+        return foodAssist;
+    }
+
+    public void setFoodAssist(boolean foodAssist) {
+        this.foodAssist = foodAssist;
+    }
+
+    public boolean isTransportAssist() {
+        return transportAssist;
+    }
+
+    public void setTransportAssist(boolean transportAssist) {
+        this.transportAssist = transportAssist;
     }
 }
